@@ -4,6 +4,7 @@ public class ArrayHandlingYirmidokuz {
     int[] sayilar = { 100, 200, 34, 44, 54, 64, 74, 84, 95 };
     try {
       int toplam = sayilar[1] + sayilar[10];// ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 9
+      System.out.println("Toplam: " + toplam);
     } catch (ArrayIndexOutOfBoundsException e) {
       System.out.println("error message");
     }
