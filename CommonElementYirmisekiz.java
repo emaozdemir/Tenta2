@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 import java.util.HashSet;
 
 public class CommonElementYirmisekiz {
@@ -38,4 +38,5 @@ public class CommonElementYirmisekiz {
             System.out.print(i + ",");
         }
     }
+    
 }
